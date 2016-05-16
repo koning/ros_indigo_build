@@ -27,7 +27,7 @@ sudo apt-get install python-pydot
 sudo apt-get install libjpeg-dev
 sudo apt-get install python-argparse
 sudo apt-get install libfltk1.3-dev
-sudo apt-get install libvtk-java
+sudo apt-get install libvtk6-java
 sudo apt-get install libtool
 sudo apt-get install python-vtk
 sudo apt-get install libassimp-dev

@@ -1,6 +1,6 @@
 #!/bin/sh
 mv -i indigo-desktop-full-wet.rosinstall indigo-desktop-full-wet.rosinstall.old
-rosinstall_generator desktop_full --rosdistro indigo --deps --wet-only --tar > indigo-desktop-full-wet.rosinstall
+rosinstall_generator desktop_full --rosdistro indigo --deps --wet-only --tar --exclude gazebo_ros_pkgs > indigo-desktop-full-wet.rosinstall
 diff -u indigo-desktop-full-wet.rosinstall indigo-desktop-full-wet.rosinstall.old
 wstool merge -t src indigo-desktop-full-wet.rosinstall
 wstool update -t src
