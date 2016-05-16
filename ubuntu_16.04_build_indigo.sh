@@ -40,5 +40,8 @@ sudo apt-get install libgtest-dev
 sudo apt-get install liblz4-dev
 sudo apt-get install libbz2-dev
 sudo apt-get install libcollada-dom2.4
+sudo apt-get install libgazebo7-dev
+sudo apt-get install libproj-dev
+
 ./get_indigo.sh
 ./build_indigo.sh
